@@ -1,0 +1,29 @@
+[0m21:56:19.684031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268012665A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026800C7D9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002687E67EA50>]}
+
+
+============================== 21:56:19.695194 | 2ebfbb6f-c9d0-4e34-9450-d2c86923955d ==============================
+[0m21:56:19.695194 [info ] [MainThread]: Running with dbt=1.9.3
+[0m21:56:19.706500 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mikhail\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init dbt_clickhouse', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:56:19.779417 [debug] [MainThread]: Starter project path: C:\Users\Mikhail\anaconda3\Lib\site-packages\dbt\include\starter_project
+[0m21:56:20.495765 [info ] [MainThread]: 
+Your new dbt project "dbt_clickhouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:56:20.503911 [info ] [MainThread]: Setting up your profile.
+[0m21:56:53.119057 [info ] [MainThread]: No sample profile found for clickhouse.
+[0m21:56:53.123140 [debug] [MainThread]: Command `dbt init` succeeded at 21:56:53.123140 after 33.84 seconds
+[0m21:56:53.125209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026801329940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026801889070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002680158A330>]}
+[0m21:56:53.126146 [debug] [MainThread]: Flushing usage events
+[0m21:56:53.989810 [debug] [MainThread]: An error was encountered while trying to flush usage events
